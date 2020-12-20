@@ -16,8 +16,8 @@ Again, the concept of breaking a large, complex task into smaller operations is 
 The functional requirements for this project were straightforward:
 1. A database implementation with full CRUD functionality
 2. A user-facing dashboard to implement custom filters and queries on the database, as well as to provide visual output of the data
-  - Specific filters were required to search for animals suitable for various types of rescue training
-  - Data output was required in table format, as well as a graphical chart and a geolocation map
+  * Specific filters were required to search for animals suitable for various types of rescue training
+  * Data output was required in table format, as well as a graphical chart and a geolocation map
  
 Considering these requirements, development of the project began with the database and CRUD operations, which were implemented using MongoDB and PyMongo. Next, construction of the Dash GUI began, first implementing simple data queries on the database. Once the framework was established to connect the frontend Dash dashboard to the backend database, the more complex querying and user interface elements were implemented, at which point all requirements were met and the project was delivered.
 
